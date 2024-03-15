@@ -27,5 +27,5 @@ Heat maps and plots were constructed for providing a comprehensive understanding
 - **Bootstrapping** : Bootstrapping is a resampling technique used in statistics to estimate the sampling distribution of a statistic by repeatedly sampling with replacement from the observed data
 - **Support Vector Machine**: Support Vector Machines (SVMs) are powerful supervised learning models used for classification and regression tasks. SVMs are particularly effective in high-dimensional spaces and are widely used in various fields, including pattern recognition, image classification, and bioinformatics.
 
-## Resulta
+## Results
 The experiments show that Random Forest can detect more than 95% of botnets for 8 out of 13 scenarios. Moreover, the accuracy on the 5 most difficult scenarios can be increased thanks to a bootstrap method. 
