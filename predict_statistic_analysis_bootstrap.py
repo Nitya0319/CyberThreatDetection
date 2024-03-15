@@ -1,20 +1,4 @@
-# -*- coding: utf-8 -*-
-# Author: Antoine DELPLACE
-# Last update: 17/01/2020
-"""
-Perform a statistic analysis of the Random Forest with a bootstrap method to predict which flow is a malware.
 
-Parameters
-----------
-data_window_botnetx.h5         : extracted data from preprocessing1.py
-data_window3_botnetx.h5        : extracted data from preprocessing2.py
-data_window_botnetx_labels.npy : label numpy array from preprocessing1.py
-nb_prediction                  : number of predictions to perform
-
-Return
-----------
-Print train and test mean accuracy, precison, recall, f1
-"""
 
 import numpy as np
 import pandas as pd
