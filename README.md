@@ -6,3 +6,4 @@ Network flow analysis emerges as a powerful technique for detecting cyber threat
 The aim of this project is to leverage machine learning methods to develop a mechanism for cyber attack detection through network flow analysis. By harnessing the wealth of information present in NetFlow datasets, we seek to identify anomalous activities indicative of cyber attacks, such as intrusion attempts, malware propagation, and denial-of-service attacks.
 
 ## Data Collection
+The dataset used can be found at this link : https://www.stratosphereips.org/datasets-ctu13, and it provides detailed information about Network flows within the system. 
