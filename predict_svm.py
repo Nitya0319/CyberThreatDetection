@@ -1,22 +1,3 @@
-# -*- coding: utf-8 -*-
-# Author: Antoine DELPLACE
-# Last update: 17/01/2020
-"""
-Use Support Vector Machine to predict which flow is a malware.
-Tune different hyperparameters: gamma_scale, degree, regularization penalty
-Try a kernel approximation with l2 hinge
-
-Parameters
-----------
-data_window.h5         : extracted data from preprocessing1.py
-data_window3.h5        : extracted data from preprocessing2.py
-data_window_labels.npy : label numpy array from preprocessing1.py
-
-Return
-----------
-Print and Plot the results of the hyperparameter tuning (precision, recall and f1)
-Print train and test accuracy, precison, recall, f1 and support for the kernel approximation
-"""
 
 import numpy as np
 import pandas as pd
