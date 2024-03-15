@@ -1,19 +1,4 @@
-# -*- coding: utf-8 -*-
-# Author: Antoine DELPLACE
-# Last update: 17/01/2020
-"""
-Use Random Forest with a bootstrap method to predict which flow is a malware.
 
-Parameters
-----------
-data_window_botnetx.h5         : extracted data from preprocessing1.py
-data_window3_botnetx.h5        : extracted data from preprocessing2.py
-data_window_botnetx_labels.npy : label numpy array from preprocessing1.py
-
-Return
-----------
-Print train and test accuracy, precison, recall, f1 and support
-"""
 
 import numpy as np
 import pandas as pd
