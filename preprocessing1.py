@@ -1,24 +1,4 @@
-# -*- coding: utf-8 -*-
-# Author: Antoine DELPLACE
-# Last update: 17/01/2020
-"""
-Pre-processing program to extract window-related data from Netflow files
 
-Parameters
-----------
-window_width  : window width in seconds
-window_stride : window stride in seconds
-data          : pandas DataFrame of the Netflow file
-
-Return
-----------
-Create 3 output files:
-- data_window_botnetx.h5         : DataFrame with the extracted data: Sport, DstAddr, Dport,
-                                   Dur (sum, mean, std, max, median), TotBytes (sum, mean, std, max, median),
-                                   SrcBytes (sum, mean, std, max, median)
-- data_window_botnetx_id.npy     : Numpy array containing SrcAddr
-- data_window_botnetx_labels.npy : Numpy array containing Label
-"""
 
 import pandas as pd
 import numpy as np
